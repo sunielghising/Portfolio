@@ -1,3 +1,3 @@
 ## Portfolio
 
-A simple responsive web portfolio.
+A simple responsive web portfolio using HTML and CSS.
