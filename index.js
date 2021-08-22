@@ -1,3 +1,4 @@
+//loop of job-roles
 var example = ['an undergraduate student.',
   'a front-end developer.',
   'a back-end developer.',
