@@ -144,6 +144,10 @@ img {
   opacity: 0.5;
 }
 
+.nav-list .active a{
+  opacity: 0.5;
+}
+
 /* Welcome section */
 
 .welcome-section {
