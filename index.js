@@ -1,3 +1,15 @@
+//navbar active link
+$(document).ready(function () {
+
+           $('ul.nav-list> li')
+                   .click(function (e) {
+               $('ul.nav-list> li')
+                   .removeClass('active');
+               $(this).addClass('active');
+           });
+       });
+
+
 //loop of job-roles
 var example = ['an undergraduate student.',
   'a front-end developer.',
