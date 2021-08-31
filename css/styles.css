@@ -55,6 +55,12 @@ body {
   margin-right: 10px;
 }
 
+/* technologies */
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
 /* CONTACT */
 
 .contact-section{
