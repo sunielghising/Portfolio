@@ -26,6 +26,35 @@ body {
   transform: translateY(8px);
 }
 
+/* hire */
+
+.quote{
+  font-family: 'Oldenburg', cursive;
+}
+
+.elementToFadeInAndOut {
+    -webkit-animation: fadeinout 4s linear 1 forwards;
+    animation: fadeinout 4s linear 1 forwards;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.btn-hire > i {
+  margin-right: 10px;
+}
+
 /* CONTACT */
 
 .contact-section{
@@ -38,6 +67,10 @@ body {
 
 .btn-contact:hover{
   transform: translateY(8px);
+}
+
+.btn-outline-light{
+  outline: 0;
 }
 
 
