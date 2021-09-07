@@ -9,6 +9,16 @@ body {
   width: 40px;
 }
 
+.btn-view > i {
+  margin-right: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.btn-view:hover > i {
+  transform: translateX(8px);
+}
+
 /* Welcome Section */
 
 .role{
