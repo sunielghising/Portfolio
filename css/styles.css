@@ -1,3 +1,5 @@
+
+
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
@@ -44,6 +46,7 @@ body {
 
 .elementToFadeInAndOut {
     -webkit-animation: fadeinout 4s linear 1 forwards;
+    -moz-animation: fadeinout 4s linear 1 forwards;
     animation: fadeinout 4s linear 1 forwards;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -88,23 +91,17 @@ body {
   pointer-events: none;
 }
 .list-group-item-check:hover + .list-group-item {
-  background-color: var(--bs-light);
+  background-color: #f8f9fa;
 }
 .list-group-item-check:checked + .list-group-item {
   color: #fff;
-  background-color: var(--bs-dark);
+  background-color: #6c757d;
 }
 .list-group-item-check[disabled] + .list-group-item,
 .list-group-item-check:disabled + .list-group-item {
   pointer-events: none;
   filter: none;
   opacity: .5;
-}
-
-/* technologies */
-.bi {
-  vertical-align: -.125em;
-  fill: currentColor;
 }
 
 /* CONTACT */
@@ -119,10 +116,6 @@ body {
 
 .btn-contact:hover{
   transform: translateY(8px);
-}
-
-.btn-outline-light{
-  outline: 0;
 }
 
 
