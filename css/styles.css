@@ -127,3 +127,21 @@ body {
 .justify{
   text-align: justify;
 }
+
+/* Blog CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.blog .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.blog h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.blog .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
