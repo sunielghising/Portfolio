@@ -22,7 +22,11 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <div class="fixed-top">
+    <div class="progress-container bg-light">
+      <div class="progress-bar bg-secondary" id="myBar"></div>
+    </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img class="logo" src="images/circle-cropped.ico" alt="brand">
@@ -60,6 +64,7 @@
       </div>
     </div>
   </nav>
+  </div>
 
   <!-- Home Section -->
   <div class="container py-4" id="about">
